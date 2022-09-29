@@ -1,0 +1,5 @@
+psmt-version: 0.0.1+11
+name: CyA-Template
+author: Pablo Hernández
+repo: https://github.com/Hadronomy/cya-template
+variables: []
