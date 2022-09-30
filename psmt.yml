@@ -7,3 +7,5 @@ variables:
     ask: Executable name
   - name: Version
     ask: Version
+  - name: Description
+    ask: Description
