@@ -4,3 +4,6 @@ cmake:
 
 build: cmake
 	cd build; make
+
+tar:
+	tar cvfz {{TarName}}.tar.gz --exclude-from=.gitignore *

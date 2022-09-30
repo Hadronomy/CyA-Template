@@ -8,3 +8,4 @@ set(CMAKE_CXX_STANDARD 17)
 set(PROJECT_SHORTNAME "{{ExeName}}")
 
 add_subdirectory("src")
+add_subdirectory("test")

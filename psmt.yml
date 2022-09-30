@@ -9,3 +9,11 @@ variables:
     ask: Version
   - name: Description
     ask: Description
+  - name: Author
+    ask: Author name
+  - name: Email
+    ask: Email
+  - name: Date
+    ask: Due date
+  - name: TarName
+    ask: Tar filename
