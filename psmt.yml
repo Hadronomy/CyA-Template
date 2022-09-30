@@ -2,4 +2,8 @@ psmt-version: 0.0.1+11
 name: CyA-Template
 author: Pablo Hernández
 repo: https://github.com/Hadronomy/cya-template
-variables: []
+variables:
+  - name: ExeName
+    ask: Executable name
+  - name: Version
+    ask: Version

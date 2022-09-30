@@ -3,15 +3,15 @@ project(${CMAKE_PROJECT_NAME})
 file(GLOB_RECURSE SOURCES RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} "*.cc")
 message(STATUS "Found sources: ${SOURCES}")
 
-add_executable({{ExeName}})
+add_executable("cya")
 
-target_sources({{ExeName}}
+target_sources("cya"
     PRIVATE
       ${SOURCES}
 )
 
 target_include_directories(
-  {{ExeName}}
+  "cya"
   PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}
   PUBLIC
